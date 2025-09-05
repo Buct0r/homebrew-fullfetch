@@ -17,6 +17,17 @@ class Fullfetch < Formula
     end
   end
 
+  on_linux do
+    on_arm do
+      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.1/fullfetch_Linux_arm64.tar.gz"
+      sha256 "88D9DA503ACD4D05E129A8E16AF334BA277B32E652CE4F5ED31A107CBB6102D7"
+    end
+    on_intel do
+      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.1/fullfetch_Linux_x86_64.tar.gz"
+      sha256 "346042B3C6713B6385DD7CC324954723767C60EB21573404BA37BBF3084ACD47"
+    end
+  end
+
 
   def install
     bin.install "fullfetch"
