@@ -3,28 +3,28 @@ class Fullfetch < Formula
   homepage "https://github.com/Buct0r/fullfetch"
   license "MIT"
   
-  version "2.1.2"
+  version "2.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.2/fullfetch_Darwin_arm64.tar.gz"
-      sha256 "CAAF46DC6D421045E5E87CC99DDB6C243D88FD77D6579A735724FFC44F0C1810"
+      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.3/fullfetch_Darwin_arm64.tar.gz"
+      sha256 "A5C11B90408871580A047C8AB9571A0251F27B3185C0A471A198BB8C6D68A8A7"
     end
 
     on_intel do
-      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.2/fullfetch_Darwin_x86_64.tar.gz"
-      sha256 "057179F2C8CFB9B24C484C28DAEBADC8F4CB6A2BE8D4D22554450C7825E43009"
+      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.3/fullfetch_Darwin_x86_64.tar.gz"
+      sha256 "2F6912D23964DC4B8CF0A0B6D41733E2C70E30B84C518392E557B0C8C147AD57"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.2/fullfetch_Linux_arm64.tar.gz"
-      sha256 "8C879754DDCC77687404E60C9BA7058DC5FF7FE65C20A3AA7AA73F89179CB3C5"
+      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.3/fullfetch_Linux_arm64.tar.gz"
+      sha256 "A06F1F3762DB44AFEFB1482A6EBA9BE25633E49B84CA70DFD70AB1E536D0A09C"
     end
     on_intel do
-      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.2/fullfetch_Linux_x86_64.tar.gz"
-      sha256 "5921B07798A3517B861C7E93C3A0159593348DFD4B4225F7F592D8788595AE7B"
+      url "https://github.com/Buct0r/fullfetch/releases/download/v2.1.3/fullfetch_Linux_x86_64.tar.gz"
+      sha256 "7637DC704B01F80AD2B7A565EC66CF8BA6C87DBBE2B4A8C01DBE81A4B276744D"
     end
   end
 
